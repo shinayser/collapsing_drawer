@@ -2,15 +2,18 @@
 
 A drawer than can be collapsed.
 
-![Demon](https://github.com/shinayser/collapsing_drawer/blob/master/thegif.gif)
+![Demo](https://github.com/shinayser/collapsing_drawer/blob/master/thegif.gif)
 
 ### Basic usage
+
+Add [`collapsing_drawer`](https://pub.dartlang.org/packages/collapsing_drawer) in your pubspec.yaml.
 
 Add the import:
 ```import 'package:collapsing_drawer/collapsing_drawer.dart';```
 
 Then you just add a **CollapsingContainer** to your Scaffold's body like this:
-```
+```dart
+
 class TestesCollapsingContainer extends StatefulWidget {
   @override
   TestesCollapsingContainerState createState() => TestesCollapsingContainerState();
@@ -84,7 +87,7 @@ class TestesCollapsingContainerState extends State<TestesCollapsingContainer> wi
 ```
 
 A sample of a tile you can use on it:
-```
+```dart
 
 class JustATile extends StatefulWidget {
   final AnimationController animationController;
