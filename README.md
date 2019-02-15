@@ -9,7 +9,9 @@ A drawer than can be collapsed.
 Add [`collapsing_drawer`](https://pub.dartlang.org/packages/collapsing_drawer) in your pubspec.yaml.
 
 Add the import:
-```import 'package:collapsing_drawer/collapsing_drawer.dart';```
+```dart
+import 'package:collapsing_drawer/collapsing_drawer.dart';
+```
 
 Then you just add a **CollapsingContainer** to your Scaffold's body like this:
 ```dart
