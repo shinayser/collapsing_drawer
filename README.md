@@ -6,7 +6,7 @@ A drawer than can be collapsed.
 
 ### Basic usage
 
-1. Add the import:
+Add the import:
 ```import 'package:collapsing_drawer/collapsing_drawer.dart';```
 
 Then you just add a **CollapsingContainer** to your Scaffold's body like this:
