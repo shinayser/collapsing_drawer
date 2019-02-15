@@ -2,6 +2,8 @@
 
 A drawer than can be collapsed.
 
+![Demon](https://github.com/shinayser/collapsing_drawer/blob/master/thegif.gif)
+
 ### Basic usage
 
 1. Add the import:
